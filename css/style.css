@@ -1,9 +1,3 @@
-* {
-	background-color: #009688;
-	color: white;
-	text-align: center;
-}
-
 
 /**
 	Beállítások:
@@ -12,7 +6,9 @@
 	3. szövegigazítás középre
 */
 body {
-	
+	background-color: #009688;
+	color: white;
+	text-align: center;
   }
   
   a {
@@ -32,12 +28,6 @@ body {
   .menu {
 	-webkit-filter: url("#shadowed-goo");
 			filter: url("#shadowed-goo");
-	background-color: #ffc107;
-	color: white;
-	border-radius: 100%;
-	position: absolute;
-	text-align: center;
-	height: 80px;
   }
   
   /**
@@ -60,15 +50,16 @@ body {
 	transition: -webkit-transform ease-out 200ms;
 	transition: transform ease-out 200ms;
 	transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+	background-color: #ffc107;
+	color: white;
+	border-radius: 100%;
+	position: absolute;
+	text-align: center;
+	height: 80px;
   }
   
   .menu-open {
 	display: none;
-	width: 25px;
-	height: 3px;
-	background-color: white;
-	display: block;
-	position: absolute;
   }
   
   /**
@@ -88,6 +79,11 @@ body {
 	transition: -webkit-transform 200ms;
 	transition: transform 200ms;
 	transition: transform 200ms, -webkit-transform 200ms;
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	display: block;
+	position: absolute;
   }
   
   .hamburger-1 {
